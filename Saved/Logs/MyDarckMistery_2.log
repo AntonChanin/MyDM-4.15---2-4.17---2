@@ -1,0 +1,855 @@
+﻿Log file open, 04/11/20 18:29:15
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: MyDarckMistery
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1471314324) SRandInit(1471314324).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.158831
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2020.04.11-15.29.15:510][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.11-15.29.15:510][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.04.11-15.29.15:517][  0]LogInit: Computer: USERPC
+[2020.04.11-15.29.15:517][  0]LogInit: User: user
+[2020.04.11-15.29.15:517][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.04.11-15.29.15:517][  0]LogInit: High frequency timer resolution =3.328300 MHz
+[2020.04.11-15.29.15:517][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2020.04.11-15.29.15:517][  0]LogMemory: Platform Memory Stats for Windows
+[2020.04.11-15.29.15:517][  0]LogMemory: Process Physical Memory: 283.03 MB used, 283.03 MB peak
+[2020.04.11-15.29.15:517][  0]LogMemory: Process Virtual Memory: 281.72 MB used, 281.72 MB peak
+[2020.04.11-15.29.15:517][  0]LogMemory: Physical Memory: 3371.24 MB used,  4773.28 MB free, 8144.52 MB total
+[2020.04.11-15.29.15:517][  0]LogMemory: Virtual Memory: 662.79 MB used,  4773.28 MB free, 8388608.00 MB total
+[2020.04.11-15.29.15:650][  0]LogInit: Using OS detected language (ru-RU).
+[2020.04.11-15.29.15:650][  0]LogInit: Using OS detected locale (ru-RU).
+[2020.04.11-15.29.15:653][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the language.
+[2020.04.11-15.29.15:653][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the locale.
+[2020.04.11-15.29.22:522][  0]LogD3D11RHI: D3D11 adapters:
+[2020.04.11-15.29.22:576][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2020.04.11-15.29.22:576][  0]LogD3D11RHI:       8077/0/3816 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.04.11-15.29.22:576][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.04.11-15.29.22:584][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.04.11-15.29.22:585][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2020.04.11-15.29.22:585][  0]LogWindows: EnumDisplayDevices:
+[2020.04.11-15.29.22:585][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2020.04.11-15.29.22:585][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.04.11-15.29.22:585][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.04.11-15.29.22:585][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.04.11-15.29.22:586][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2020.04.11-15.29.22:586][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2020.04.11-15.29.22:586][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2020.04.11-15.29.22:586][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.04.11-15.29.22:586][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2020.04.11-15.29.22:595][  0]LogD3D11RHI:   Driver Version: 441.41 (internal:26.21.14.4141, unified:441.41)
+[2020.04.11-15.29.22:595][  0]LogD3D11RHI:      Driver Date: 11-20-2019
+[2020.04.11-15.29.22:595][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2020.04.11-15.29.22:770][  0]LogD3D11RHI: Async texture creation enabled
+[2020.04.11-15.29.25:013][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2020.04.11-15.29.25:688][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (../../../../../../MyDM 4.15 - 2 4.17 - 2/Intermediate/Shaders/WorkingDirectory/5404/).
+[2020.04.11-15.29.25:688][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/user/AppData/Local/Temp/UnrealShaderWorkingDir/D3C3627D4C8A1BD5E1E26C9801A55FB1/'.
+[2020.04.11-15.29.25:772][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.04.11-15.29.41:340][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2020.04.11-15.29.41:471][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2020.04.11-15.29.41:626][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2020.04.11-15.29.41:712][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2020.04.11-15.29.41:876][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2020.04.11-15.29.41:946][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2020.04.11-15.29.42:064][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.04.11-15.29.42:175][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2020.04.11-15.29.42:271][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2020.04.11-15.29.42:392][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.11-15.29.42:493][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2020.04.11-15.29.42:605][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2020.04.11-15.29.42:696][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2020.04.11-15.29.42:778][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2020.04.11-15.29.42:887][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2020.04.11-15.29.43:083][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2020.04.11-15.29.43:083][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2020.04.11-15.29.43:221][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2020.04.11-15.29.43:613][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.04.11-15.29.43:691][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.04.11-15.29.43:810][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2020.04.11-15.29.43:910][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.04.11-15.29.44:001][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2020.04.11-15.29.44:234][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2020.04.11-15.29.44:234][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.04.11-15.29.51:361][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.04.11-15.30.01:490][  0]LogDerivedDataCache: Loaded boot cache 10.04s 92MB C:/Users/user/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2020.04.11-15.30.01:490][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/user/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2020.04.11-15.30.01:490][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../MyDM 4.15 - 2 4.17 - 2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.04.11-15.30.01:490][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.04.11-15.30.01:490][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../MyDM 4.15 - 2 4.17 - 2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.11-15.30.01:491][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.04.11-15.30.01:720][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.04.11-15.30.01:731][  0]LogDerivedDataCache: Using Local data cache path C:/Users/user/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.04.11-15.30.02:065][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.04.11-15.30.02:490][  0]LogSlate: Using Freetype 2.6.0
+[2020.04.11-15.30.02:675][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.04.11-15.30.02:687][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.04.11-15.30.46:084][  0]LogAssetRegistry: FAssetRegistry took 0.1313 seconds to start up
+[2020.04.11-15.30.51:836][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.11-15.30.52:424][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2020.04.11-15.30.59:374][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.04.11-15.30.59:619][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.04.11-15.30.59:619][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.04.11-15.30.59:619][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2020.04.11-15.30.59:619][  0]LogMeshReduction: No automatic mesh merging module available
+[2020.04.11-15.30.59:619][  0]LogMeshMerging: No automatic mesh merging module available
+[2020.04.11-15.31.06:261][  0]LogConfig: Warning: Failed to saved backup for config[GameplayTagsList]
+[2020.04.11-15.31.14:307][  0]LogNetVersion: MyDarckMistery , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1143418664)
+[2020.04.11-15.31.20:366][  0]LogAssetRegistry: Error: Failed to open file for write ../../../../../../MyDM 4.15 - 2 4.17 - 2/Intermediate/AssetRegistryCache/866581fd.bin
+[2020.04.11-15.31.20:393][  0]LogAssetRegistry: Error: Failed to open file for write ../../../../../../MyDM 4.15 - 2 4.17 - 2/Intermediate/AssetRegistryCache/1f683343.bin
+[2020.04.11-15.31.20:395][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.198947 seconds
+[2020.04.11-15.31.20:403][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2020.04.11-15.31.20:403][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2020.04.11-15.31.20:403][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.04.11-15.31.20:478][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2020.04.11-15.32.19:478][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.04.11-15.32.19:547][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.04.11-15.32.22:136][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2020.04.11-15.32.23:852][  0]LogConfig: Warning: Failed to saved backup for config[SourceControlSettings]
+[2020.04.11-15.32.23:853][  0]SourceControl: Source control is disabled
+[2020.04.11-15.32.28:467][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.04.11-15.32.28:881][  0]LogOcInput: OculusInput pre-init called
+[2020.04.11-15.32.30:201][  0]LogEngine: Initializing Engine...
+[2020.04.11-15.32.30:265][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.11-15.32.32:945][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.04.11-15.32.32:945][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.04.11-15.32.33:669][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.04.11-15.32.33:826][  0]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.04.11-15.32.35:466][  0]LogInit: FAudioDevice initialized.
+[2020.04.11-15.32.35:956][  0]LogDerivedDataCache: Saved boot cache 0.49s 92MB C:/Users/user/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2020.04.11-15.32.35:965][  0]LogInit: Texture streaming: Enabled
+[2020.04.11-15.32.36:077][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.04.11-15.32.38:115][  0]LogInit: Transaction tracking system initialized
+[2020.04.11-15.32.39:338][  0]BlueprintLog: New page: Editor Load
+[2020.04.11-15.32.43:353][  0]LogConfig: Warning: Failed to saved backup for config[LocalizationServiceSettings]
+[2020.04.11-15.32.43:354][  0]LocalizationService: Localization service is disabled
+[2020.04.11-15.32.46:598][  0]LogConsoleResponse: Display: 
+[2020.04.11-15.32.52:586][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.04.11-15.32.52:586][  0]LogCook: Display: Mobile HDR setting 1
+[2020.04.11-15.32.52:643][  0]LogFileCache: Scanning file cache for directory 'C:/MyDM 4.15 - 2 4.17 - 2/Content/' took 0.04s
+[2020.04.11-15.32.52:643][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2020.04.11-15.32.58:756][  0]LogSlate: Took 0.044695 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.04.11-15.33.34:666][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.04.11-15.33.34:857][  0]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_788_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_17ec_0///####STATCAT_Advanced####
+[2020.04.11-15.33.34:857][  0]LogCollectionManager: Loaded 1 collections in 0.001763 seconds
+[2020.04.11-15.33.34:928][  0]LogFileCache: Scanning file cache for directory 'C:/MyDM 4.15 - 2 4.17 - 2/Saved/Collections/' took 0.01s
+[2020.04.11-15.33.34:929][  0]LogFileCache: Scanning file cache for directory 'C:/MyDM 4.15 - 2 4.17 - 2/Content/Developers/user/Collections/' took 0.01s
+[2020.04.11-15.33.34:929][  0]LogFileCache: Scanning file cache for directory 'C:/MyDM 4.15 - 2 4.17 - 2/Content/Collections/' took 0.01s
+[2020.04.11-15.33.34:929][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000002 seconds
+[2020.04.11-15.33.34:929][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000001 seconds
+[2020.04.11-15.33.34:936][  0]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 2389 classes and 505 folders.
+[2020.04.11-15.33.34:994][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.04.11-15.33.35:044][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.04.11-15.33.35:051][  0]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.04.11-15.33.35:053][  0]LogSlate: Took 0.000134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.04.11-15.33.35:138][  0]LogRenderer: Reallocating scene render targets to support 900x680 Format 9 NumSamples 1 (Frame:1).
+[2020.04.11-15.33.35:304][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2020.04.11-15.33.35:305][  0]LogLoad: (Engine Initialization) Total time: 295.44 seconds
+[2020.04.11-15.33.35:305][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.04.11-15.33.35:305][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2020.04.11-15.33.35:305][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2020.04.11-15.33.35:337][  0]SourceControl: On branch master
+[2020.04.11-15.33.35:337][  0]SourceControl: Changes to be committed:
+[2020.04.11-15.33.35:337][  0]SourceControl:   (use "git reset HEAD <file>..." to unstage)
+[2020.04.11-15.33.35:337][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/Common/ForgeAsset_Circle.uasset
+[2020.04.11-15.33.35:337][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/Common/ForgeAsset_Circle_002.uasset
+[2020.04.11-15.33.35:337][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/Common/ForgeAsset_Cube.uasset
+[2020.04.11-15.33.35:337][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/Common/ForgeAsset_Cube_001.uasset
+[2020.04.11-15.33.35:337][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/Common/chairBase0.uasset
+[2020.04.11-15.33.35:337][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/Common/chairBase1.uasset
+[2020.04.11-15.33.35:337][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/Common/chairBase2.uasset
+[2020.04.11-15.33.35:337][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/Common/chairBase3.uasset
+[2020.04.11-15.33.35:337][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/Common/chairUp0.uasset
+[2020.04.11-15.33.35:337][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/Common/chairUp1.uasset
+[2020.04.11-15.33.35:337][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/Common/forgeGorn.uasset
+[2020.04.11-15.33.35:337][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/Common/forgePlaceDown.uasset
+[2020.04.11-15.33.35:337][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/Common/forgePlaceUp.uasset
+[2020.04.11-15.33.35:337][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/Common/forgeStone.uasset
+[2020.04.11-15.33.35:337][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/Common/infoStone.uasset
+[2020.04.11-15.33.35:337][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/HOTS13Dub.umap
+[2020.04.11-15.33.35:337][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/HOTS27Dub.umap
+[2020.04.11-15.33.35:337][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/Aniamls/SteppBharanger.uasset
+[2020.04.11-15.33.35:337][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/Aniamls/SteppBharanger_PhysicsAsset.uasset
+[2020.04.11-15.33.35:337][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/Aniamls/SteppBharanger_Skeleton.uasset
+[2020.04.11-15.33.35:337][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/StounsFollage.uasset
+[2020.04.11-15.33.35:337][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/StounsFollage1.uasset
+[2020.04.11-15.33.35:338][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/StounsFollage1_FoliageType.uasset
+[2020.04.11-15.33.35:338][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/StounsFollage_FoliageType.uasset
+[2020.04.11-15.33.35:338][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/YurtsAsset/Yurta.uasset
+[2020.04.11-15.33.35:338][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/YurtsAsset/Yurta0.uasset
+[2020.04.11-15.33.35:338][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/YurtsAsset/Yurta1.uasset
+[2020.04.11-15.33.35:338][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/YurtsAsset/Yurta2.uasset
+[2020.04.11-15.33.35:338][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/YurtsAsset/Yurta3.uasset
+[2020.04.11-15.33.35:338][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/YurtsAsset/Yurta4.uasset
+[2020.04.11-15.33.35:338][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/YurtsAsset/YurtaSeparater1.uasset
+[2020.04.11-15.33.35:338][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/YurtsAsset/YurtaSeparater2.uasset
+[2020.04.11-15.33.35:338][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/YurtsAsset/YurtaUp1.uasset
+[2020.04.11-15.33.35:338][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/YurtsAsset/YurtaUp2.uasset
+[2020.04.11-15.33.35:338][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/YurtsAsset/YurtaUp3.uasset
+[2020.04.11-15.33.35:338][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/YurtsAsset/YurtaUp4.uasset
+[2020.04.11-15.33.35:338][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/YurtsAsset/YurtaUp5.uasset
+[2020.04.11-15.33.35:338][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/YurtsAsset/YurtasAsset_Yurta1.uasset
+[2020.04.11-15.33.35:338][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/YurtsAsset/YurtasAsset_Yurta1_001.uasset
+[2020.04.11-15.33.35:338][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/YurtsAsset/YurtasAsset_Yurta1_002.uasset
+[2020.04.11-15.33.35:338][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/YurtsAsset/YurtasAsset_Yurta1_003.uasset
+[2020.04.11-15.33.35:338][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/YurtsAsset/YurtasAsset_Yurta1_004.uasset
+[2020.04.11-15.33.35:338][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/YurtsAsset/YurtasAsset_Yurta1_005.uasset
+[2020.04.11-15.33.35:338][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/YurtsAsset/YurtasAsset_Yurta1_006.uasset
+[2020.04.11-15.33.35:338][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/YurtsAsset/YurtasAsset_Yurta1_007.uasset
+[2020.04.11-15.33.35:338][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/YurtsAsset/YurtasAsset_Yurta1_008.uasset
+[2020.04.11-15.33.35:338][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/YurtsAsset/YurtasAsset_Yurta2.uasset
+[2020.04.11-15.33.35:338][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/YurtsAsset/YurtasAsset_Yurta3.uasset
+[2020.04.11-15.33.35:338][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/YurtsAsset/YurtasAsset_Yurta4.uasset
+[2020.04.11-15.33.35:338][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/YurtsAsset/YurtasAsset_YurtaSeparater1.uasset
+[2020.04.11-15.33.35:338][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/YurtsAsset/YurtasAsset_YurtaSeparater2.uasset
+[2020.04.11-15.33.35:338][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/YurtsAsset/YurtasAsset_YurtaUp1.uasset
+[2020.04.11-15.33.35:338][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/YurtsAsset/YurtasAsset_YurtaUp3.uasset
+[2020.04.11-15.33.35:338][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/YurtsAsset/YurtasAsset_YurtaUp4.uasset
+[2020.04.11-15.33.35:338][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/YurtsAsset/YurtasAsset_YurtaUp5.uasset
+[2020.04.11-15.33.35:338][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HeartOfTheSteppes_sharedassets/HOTS13Dub.umap
+[2020.04.11-15.33.35:338][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HeartOfTheSteppes_sharedassets/HOTS27Dub.umap
+[2020.04.11-15.33.35:338][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/testLocation/Pretoria_testLvl.umap
+[2020.04.11-15.33.35:338][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/MyAnimation/ManeHeroAnimeVisWeapon.uasset
+[2020.04.11-15.33.35:338][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/MyAnimation/ManeHeroAnimeVisWeaponState.uasset
+[2020.04.11-15.33.35:338][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/MyAnimation/ManeHeroAnimeVisWeapon_high-poly_obj_001_PhysicsAsset.uasset
+[2020.04.11-15.33.35:338][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/MyAnimation/ManeHeroAnimeVisWeapon_high-poly_obj_Anim_ManeHero_ManeHero.uasset
+[2020.04.11-15.33.35:338][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/MyAnimation/ManeHeroAnimeVisWeapon_high-poly_obj_Anim_ManeHero_ManeHero_001.uasset
+[2020.04.11-15.33.35:339][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/MyAnimation/ManeHeroAnimeVisWeapon_high-poly_obj_Anim_ManeHero_ManeHero_001Action.uasset
+[2020.04.11-15.33.35:339][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/MyAnimation/ManeHeroAnimeVisWeapon_high-poly_obj_PhysicsAsset.uasset
+[2020.04.11-15.33.35:339][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/BodyArmDef.uasset
+[2020.04.11-15.33.35:339][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/BodyArmDefPA.uasset
+[2020.04.11-15.33.35:339][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/BodyArmDefSk.uasset
+[2020.04.11-15.33.35:339][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/BodyArmDef.uasset
+[2020.04.11-15.33.35:339][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/BodyArmDefPA.uasset
+[2020.04.11-15.33.35:339][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/BodyArmDefSk.uasset
+[2020.04.11-15.33.35:339][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/E_EquipPart.uasset
+[2020.04.11-15.33.35:339][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/EquipableItem.uasset
+[2020.04.11-15.33.35:339][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/Item_BackPack.uasset
+[2020.04.11-15.33.35:339][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/LongNomBoots.uasset
+[2020.04.11-15.33.35:339][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/LongNomBootsPA.uasset
+[2020.04.11-15.33.35:339][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/LongNomBootsSk.uasset
+[2020.04.11-15.33.35:339][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/Mateterial/FurHD.uasset
+[2020.04.11-15.33.35:339][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/Meshs/BodyArmDef.uasset
+[2020.04.11-15.33.35:339][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/Meshs/BodyArmDefPA.uasset
+[2020.04.11-15.33.35:339][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/Meshs/BodyArmDefSk.uasset
+[2020.04.11-15.33.35:339][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/Meshs/LongNomBoots.uasset
+[2020.04.11-15.33.35:339][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/Meshs/LongNomBootsPA.uasset
+[2020.04.11-15.33.35:339][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/Meshs/LongNomBootsSk.uasset
+[2020.04.11-15.33.35:339][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/Meshs/OrdBoots.uasset
+[2020.04.11-15.33.35:339][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/Meshs/OrdBootsDef.uasset
+[2020.04.11-15.33.35:339][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/Meshs/OrdBootsDefPA.uasset
+[2020.04.11-15.33.35:339][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/Meshs/OrdBootsDefSk.uasset
+[2020.04.11-15.33.35:339][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/Meshs/OrdBootsPA.uasset
+[2020.04.11-15.33.35:339][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/Meshs/OrdBootsSk.uasset
+[2020.04.11-15.33.35:339][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/Meshs/OrdBracer0.uasset
+[2020.04.11-15.33.35:339][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/Meshs/OrdBracer0PA.uasset
+[2020.04.11-15.33.35:339][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/Meshs/OrdBracer1.uasset
+[2020.04.11-15.33.35:339][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/Meshs/OrdBracer1PA.uasset
+[2020.04.11-15.33.35:339][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/Meshs/OrdBracer1Sk.uasset
+[2020.04.11-15.33.35:339][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/Meshs/OrdBracer2.uasset
+[2020.04.11-15.33.35:339][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/Meshs/OrdBracer2PA.uasset
+[2020.04.11-15.33.35:339][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/Meshs/OrdBracer2Sk.uasset
+[2020.04.11-15.33.35:339][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/Meshs/OrdBracerSk.uasset
+[2020.04.11-15.33.35:339][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/Meshs/OrdsBoots.uasset
+[2020.04.11-15.33.35:339][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/Meshs/OrdsBootsPA.uasset
+[2020.04.11-15.33.35:339][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/Meshs/OrdsBootsSk.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/OrdBoots.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/OrdBootsDef.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/OrdBootsDefPA.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/OrdBootsDefSk.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/OrdBootsPA.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/OrdBootsSk.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/OrdBracer0.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/OrdBracer0PA.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/OrdBracer1.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/OrdBracer1PA.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/OrdBracer1Sk.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/OrdBracer2.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/OrdBracer2PA.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/OrdBracer2Sk.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/OrdBracerSk.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/OrdsBoots.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/OrdsBootsPA.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/OrdsBootsSk.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/E_EquipPart.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/EquipableItem.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Item_BackPack.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/LongNomBoots.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/LongNomBootsPA.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/LongNomBootsSk.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/OrdBoots.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/OrdBootsDef.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/OrdBootsDefPA.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/OrdBootsDefSk.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/OrdBootsPA.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/OrdBootsSk.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/OrdBracer0.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/OrdBracer0PA.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/OrdBracer1.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/OrdBracer1PA.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/OrdBracer1SK.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/OrdBracer2.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/OrdBracer2PA.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/OrdBracer2Sk.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/OrdBracerSk.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/OrdLthrHelmet.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/OrdLthrHelmetPA.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/OrdLthrHelmetSk.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/OrdsBoots.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/OrdsBootsPA.uasset
+[2020.04.11-15.33.35:340][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/OrdsBootsSk.uasset
+[2020.04.11-15.33.35:341][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Weapons/Spels/Banshy.uasset
+[2020.04.11-15.33.35:341][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Weapons/Spels/DarkFall.uasset
+[2020.04.11-15.33.35:341][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Weapons/Spels/DarkFallFog.uasset
+[2020.04.11-15.33.35:341][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Weapons/Spels/DarknessBolt.uasset
+[2020.04.11-15.33.35:341][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Weapons/Spels/Fly.uasset
+[2020.04.11-15.33.35:341][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Weapons/Spels/HitOfBlackCircle.uasset
+[2020.04.11-15.33.35:341][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Weapons/Spels/PaynHealth.uasset
+[2020.04.11-15.33.35:341][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Weapons/Spels/Speed.uasset
+[2020.04.11-15.33.35:341][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Weapons/Spels/Vampire.uasset
+[2020.04.11-15.33.35:341][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Weapons/TheNomanBigKnife.uasset
+[2020.04.11-15.33.35:341][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Prefabs/ForgeWater.uasset
+[2020.04.11-15.33.35:341][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Prefabs/forgeCircle.uasset
+[2020.04.11-15.33.35:341][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Prefabs/forgeGorn.uasset
+[2020.04.11-15.33.35:341][  0]SourceControl: 	new file:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Prefabs/forgePlace.uasset
+[2020.04.11-15.33.35:341][  0]SourceControl: Changes not staged for commit:
+[2020.04.11-15.33.35:341][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2020.04.11-15.33.35:341][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2020.04.11-15.33.35:341][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/Common/chairBase0.uasset
+[2020.04.11-15.33.35:341][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/Common/chairBase1.uasset
+[2020.04.11-15.33.35:341][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/Common/chairBase2.uasset
+[2020.04.11-15.33.35:341][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/Common/chairBase3.uasset
+[2020.04.11-15.33.35:341][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/Common/chairUp0.uasset
+[2020.04.11-15.33.35:341][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/Common/chairUp1.uasset
+[2020.04.11-15.33.35:341][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/HOTS13Dub.umap
+[2020.04.11-15.33.35:341][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/HOTS27Dub.umap
+[2020.04.11-15.33.35:341][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/HOTS3Save1.umap
+[2020.04.11-15.33.35:341][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/HOTSV2.umap
+[2020.04.11-15.33.35:341][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/HOTSV2_1.umap
+[2020.04.11-15.33.35:341][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/BaseDecalHOTS.uasset
+[2020.04.11-15.33.35:341][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/ClayPots9.uasset
+[2020.04.11-15.33.35:341][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/DecalTanned.uasset
+[2020.04.11-15.33.35:341][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/DirMeat_Mat.uasset
+[2020.04.11-15.33.35:341][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/Glina.uasset
+[2020.04.11-15.33.35:341][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/NomFurWood_3.uasset
+[2020.04.11-15.33.35:341][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/NomadFurnitureAsset_Cube_003.uasset
+[2020.04.11-15.33.35:341][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/StounsFollage.uasset
+[2020.04.11-15.33.35:341][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/StounsFollage1_FoliageType.uasset
+[2020.04.11-15.33.35:341][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/StounsFollage_FoliageType.uasset
+[2020.04.11-15.33.35:341][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/YurtsAsset/Yurta.uasset
+[2020.04.11-15.33.35:341][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/YurtsAsset/Yurta0.uasset
+[2020.04.11-15.33.35:342][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/YurtsAsset/YurtasAsset_Yurta1_002.uasset
+[2020.04.11-15.33.35:342][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/generateMat.uasset
+[2020.04.11-15.33.35:342][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/generateTexMat.uasset
+[2020.04.11-15.33.35:342][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/Maps/testLocation/Pretoria_testLvl.umap
+[2020.04.11-15.33.35:342][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Building/Building_Yurta.uasset
+[2020.04.11-15.33.35:342][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/MyAnimation/BS_OHW_ManeHero.uasset
+[2020.04.11-15.33.35:342][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/MyAnimation/MHClimb.uasset
+[2020.04.11-15.33.35:342][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/MyAnimation/MHClimbMon.uasset
+[2020.04.11-15.33.35:342][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/MyAnimation/MHHanging.uasset
+[2020.04.11-15.33.35:342][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/MyAnimation/MHJumpEnd.uasset
+[2020.04.11-15.33.35:342][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/MyAnimation/MHJumpLoop.uasset
+[2020.04.11-15.33.35:342][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/MyAnimation/MHJumpStart.uasset
+[2020.04.11-15.33.35:342][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/MyAnimation/MH_OHWPosFullSkill.uasset
+[2020.04.11-15.33.35:342][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/MyAnimation/MH_OHWPosHighSkill.uasset
+[2020.04.11-15.33.35:342][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/MyAnimation/MH_OHWPosMidSkill.uasset
+[2020.04.11-15.33.35:342][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/MyAnimation/MH_OHWPosMidStrongSkill.uasset
+[2020.04.11-15.33.35:342][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/MyAnimation/MH_OHWPosStrongJunSkill.uasset
+[2020.04.11-15.33.35:342][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/MyAnimation/MH_OHWPosZerSkill.uasset
+[2020.04.11-15.33.35:342][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/MyAnimation/ManeHeroAnimCrouch_high-poly_obj_Anim_ManeHero_ManeHeroAction_001.uasset
+[2020.04.11-15.33.35:342][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/MyAnimation/ManeHeroAnimCrouch_high-poly_obj_Anim_ManeHero_ManeHeroAction_002.uasset
+[2020.04.11-15.33.35:342][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/MyAnimation/ManeHeroAnimeVisWeapon.uasset
+[2020.04.11-15.33.35:342][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/MyAnimation/ManeHeroAnimeVisWeaponState.uasset
+[2020.04.11-15.33.35:342][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/MyMaterials/Material_005.uasset
+[2020.04.11-15.33.35:342][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/MyPawnDoc/BuildComponent.uasset
+[2020.04.11-15.33.35:342][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/MyPawnDoc/ChoppingAttak1_Anim.uasset
+[2020.04.11-15.33.35:342][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/MyPawnDoc/CrushingAttak1_Anim.uasset
+[2020.04.11-15.33.35:342][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/MyPawnDoc/CuttingAttak1_Anim.uasset
+[2020.04.11-15.33.35:342][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/MyPawnDoc/EquipComponent.uasset
+[2020.04.11-15.33.35:342][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/MyPawnDoc/HealthStates.uasset
+[2020.04.11-15.33.35:342][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/MyPawnDoc/ManeHeroAnimFairOtdacha_Anim_ManeHero_ManeHeroAction.uasset
+[2020.04.11-15.33.35:342][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/MyPawnDoc/ManeHeroAnimFair_Anim_ManeHero_ManeHeroAction.uasset
+[2020.04.11-15.33.35:342][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/MyPawnDoc/ManeHeroAnimIdle_Anim_ManeHero_ManeHeroAction_005.uasset
+[2020.04.11-15.33.35:342][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/MyPawnDoc/ManeHeroAnimReload_Anim.uasset
+[2020.04.11-15.33.35:342][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/MyPawnDoc/ManeHeroAnimRun_Anim_ManeHero_ManeHeroAction.uasset
+[2020.04.11-15.33.35:342][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/MyPawnDoc/ManeHero_BP.uasset
+[2020.04.11-15.33.35:342][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/MyPawnDoc/ManeHero_Skeleton.uasset
+[2020.04.11-15.33.35:342][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/MyPawnDoc/ManeHero_Skeleton_BlendSpace1D.uasset
+[2020.04.11-15.33.35:342][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/MyPawnDoc/MyFirstPersonCharacter.uasset
+[2020.04.11-15.33.35:342][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/MyPawnDoc/MyFirstPersonCharacter_Player.uasset
+[2020.04.11-15.33.35:343][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/MyPawnDoc/StrabbingAttak1_Anim.uasset
+[2020.04.11-15.33.35:343][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/ClothesItem.uasset
+[2020.04.11-15.33.35:343][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/E_EquipPart.uasset
+[2020.04.11-15.33.35:343][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/HoodOfBur_J-GaHeadHunter.uasset
+[2020.04.11-15.33.35:343][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/MaskOfBur_J-GaHeadHunter.uasset
+[2020.04.11-15.33.35:343][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/Mateterial/FabricBootsOfDakh.uasset
+[2020.04.11-15.33.35:343][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/Mateterial/Fur.uasset
+[2020.04.11-15.33.35:343][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/Mateterial/Fur2_Mat.uasset
+[2020.04.11-15.33.35:343][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/Mateterial/FurCarpets5.uasset
+[2020.04.11-15.33.35:343][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/NomadJacket.uasset
+[2020.04.11-15.33.35:343][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/PantsOfA_Nomad.uasset
+[2020.04.11-15.33.35:343][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/Phrygian_cap.uasset
+[2020.04.11-15.33.35:343][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Clothes/tunic.uasset
+[2020.04.11-15.33.35:343][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/E_EquipPart.uasset
+[2020.04.11-15.33.35:343][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/EquipableItem.uasset
+[2020.04.11-15.33.35:343][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Hats/Hat.uasset
+[2020.04.11-15.33.35:343][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Item_BackPack.uasset
+[2020.04.11-15.33.35:343][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Weapons/MeleeWeapon.uasset
+[2020.04.11-15.33.35:343][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Weapons/Projectiles/WP_Bullets.uasset
+[2020.04.11-15.33.35:343][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Weapons/Projectiles/WP_Darck.uasset
+[2020.04.11-15.33.35:343][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Weapons/Projectiles/WP_DarkBolt.uasset
+[2020.04.11-15.33.35:343][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Weapons/Projectiles/WeaponProjectile.uasset
+[2020.04.11-15.33.35:343][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Weapons/RangeWeapon.uasset
+[2020.04.11-15.33.35:343][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Weapons/Shild.uasset
+[2020.04.11-15.33.35:343][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Weapons/Spels/Banshy.uasset
+[2020.04.11-15.33.35:343][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Weapons/Spels/Blink.uasset
+[2020.04.11-15.33.35:343][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Weapons/Spels/DarkFall.uasset
+[2020.04.11-15.33.35:343][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Weapons/Spels/DarkFallFog.uasset
+[2020.04.11-15.33.35:343][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Weapons/Spels/DarknessBolt.uasset
+[2020.04.11-15.33.35:343][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Weapons/Spels/Fly.uasset
+[2020.04.11-15.33.35:343][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Weapons/Spels/HitOfBlackCircle.uasset
+[2020.04.11-15.33.35:343][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Weapons/Spels/PaynHealth.uasset
+[2020.04.11-15.33.35:343][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Weapons/Spels/Posses.uasset
+[2020.04.11-15.33.35:343][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Weapons/Spels/Speed.uasset
+[2020.04.11-15.33.35:343][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Weapons/Spels/Spel.uasset
+[2020.04.11-15.33.35:343][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Weapons/Spels/UnMaterial.uasset
+[2020.04.11-15.33.35:343][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Weapons/Spels/Vampire.uasset
+[2020.04.11-15.33.35:343][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Weapons/TheNomanBigKnife.uasset
+[2020.04.11-15.33.35:343][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Weapons/Weapon.uasset
+[2020.04.11-15.33.35:343][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Weapons/WeaponKremenPistol_1.uasset
+[2020.04.11-15.33.35:343][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Weapons/WeaponKremenPistol_2.uasset
+[2020.04.11-15.33.35:343][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Weapons/Weapon_Axe.uasset
+[2020.04.11-15.33.35:343][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Weapons/Weapon_Branch.uasset
+[2020.04.11-15.33.35:344][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Weapons/Weapon_Pickaxe.uasset
+[2020.04.11-15.33.35:344][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Weapons/Weapon_Rapire.uasset
+[2020.04.11-15.33.35:344][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Equipeble/Weapons/Weapon_SwordOfBurJ-Ga.uasset
+[2020.04.11-15.33.35:344][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Prefabs/Box.uasset
+[2020.04.11-15.33.35:344][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Prefabs/DarkBook.uasset
+[2020.04.11-15.33.35:344][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Prefabs/forgeCircle.uasset
+[2020.04.11-15.33.35:344][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Prefabs/forgeGorn.uasset
+[2020.04.11-15.33.35:344][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/NPC/Agressive/Classes/Steppy/NPC-Nomad.uasset
+[2020.04.11-15.33.35:344][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/NPC/Agressive/Classes/Steppy/NPC-UniqueNomad.uasset
+[2020.04.11-15.33.35:344][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/NPC/Agressive/NPC-AgressiveCharacter.uasset
+[2020.04.11-15.33.35:344][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/NPC/Agressive/RangeAgressive/NPC-RangeAgressiveCharacter.uasset
+[2020.04.11-15.33.35:344][  0]SourceControl: 	modified:   Content/FirstPersonBP/Blueprints/MyAddContent/NPC/NPCCharacter.uasset
+[2020.04.11-15.33.35:344][  0]SourceControl: 	modified:   Content/KiteDemo/Environments/Foliage/Ferns/SM_Fern_01_FoliageType.uasset
+[2020.04.11-15.33.35:344][  0]SourceControl: 	modified:   Content/KiteDemo/Environments/Foliage/Ferns/SM_Fern_02_FoliageType.uasset
+[2020.04.11-15.33.35:344][  0]SourceControl: 	modified:   Content/KiteDemo/Environments/Foliage/Ferns/SM_Fern_03_FoliageType.uasset
+[2020.04.11-15.33.35:344][  0]SourceControl: 	modified:   Content/KiteDemo/Environments/Foliage/Flowers/Buttercup/SM_Buttercup_Patch_01_FoliageType.uasset
+[2020.04.11-15.33.35:344][  0]SourceControl: 	modified:   Content/KiteDemo/Environments/Foliage/Flowers/FieldScabious/SM_FieldScabious_01_FoliageType.uasset
+[2020.04.11-15.33.35:344][  0]SourceControl: 	modified:   Content/KiteDemo/Environments/Foliage/Flowers/Heather/SM_Heather_Mesh_Clumps2_FoliageType.uasset
+[2020.04.11-15.33.35:344][  0]SourceControl: 	modified:   Content/KiteDemo/Environments/Foliage/Flowers/Yarrow/SM_Yarrow3_FoliageType.uasset
+[2020.04.11-15.33.35:344][  0]SourceControl: 	modified:   Content/KiteDemo/Environments/Foliage/Flowers/Yarrow/SM_Yarrow_FoliageType.uasset
+[2020.04.11-15.33.35:344][  0]SourceControl: 	modified:   Content/KiteDemo/Environments/Foliage/Grass/FieldGrass/SM_FieldGrass_01_FoliageType.uasset
+[2020.04.11-15.33.35:344][  0]SourceControl: 	modified:   Content/StarterContent/Materials/M_Glass.uasset
+[2020.04.11-15.33.35:344][  0]SourceControl: 	modified:   Content/UI/Inventory/Equipment/W_EquipmentSlot.uasset
+[2020.04.11-15.33.35:344][  0]SourceControl: 	modified:   Content/UI/Inventory/W_DarckBook.uasset
+[2020.04.11-15.33.35:344][  0]SourceControl: 	modified:   Content/UI/Inventory/W_Inventory-Grid.uasset
+[2020.04.11-15.33.35:344][  0]SourceControl: 	modified:   Content/UI/Inventory/W_Inventory.uasset
+[2020.04.11-15.33.35:344][  0]SourceControl: 	modified:   Content/UI/Inventory/W_InventoryExchange.uasset
+[2020.04.11-15.33.35:344][  0]SourceControl: 	modified:   Content/UI/Inventory/W_InventorySlotContextMenu.uasset
+[2020.04.11-15.33.35:344][  0]SourceControl: 	modified:   Content/UI/Inventory/W_Inventory_Slot-Empty.uasset
+[2020.04.11-15.33.35:344][  0]SourceControl: 	modified:   Content/UI/Inventory/W_Spel-Slot.uasset
+[2020.04.11-15.33.35:344][  0]SourceControl: Untracked files:
+[2020.04.11-15.33.35:344][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2020.04.11-15.33.35:344][  0]SourceControl: 	BuikdBN5/
+[2020.04.11-15.33.35:344][  0]SourceControl: 	Build/
+[2020.04.11-15.33.35:344][  0]SourceControl: 	Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/YurtsAsset/YurtasAsset.uasset
+[2020.04.11-15.33.35:344][  0]SourceControl: 	Content/FirstPersonBP/Blueprints/MyAddContent/Maps/HOTSV2Cont/LevelContent/YurtsAsset/YurtasAsset_Yurta1_009.uasset
+[2020.04.11-15.33.35:344][  0]SourceControl: 	Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/EquipableItem.uasset
+[2020.04.11-15.33.35:344][  0]SourceControl: 	Content/FirstPersonBP/Blueprints/MyAddContent/MyPawn/Storage/Items/Item_BackPack.uasset
+[2020.04.11-15.33.35:345][  0]LogContentStreaming: Texture pool size now 400 MB
+[2020.04.11-15.33.35:377][  0]LogSlate: Took 0.000263 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.04.11-15.33.35:512][  3]LogAssetRegistry: Asset discovery search completed in 169.5017 seconds
+[2020.04.11-15.33.35:517][  3]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000001 seconds (found 0 objects)
+[2020.04.11-15.33.35:517][  3]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000066 seconds (updated 0 objects)
+[2020.04.11-15.33.36:353][ 82]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.04.11-15.33.58:519][863]Cmd: QUIT_EDITOR
+[2020.04.11-15.33.59:165][863]LogExit: Preparing to exit.
+[2020.04.11-15.34.00:103][863]LogDirectoryWatcher: A directory notification for 'C:/MyDM 4.15 - 2 4.17 - 2/Content/' was aborted.
+[2020.04.11-15.34.00:256][863]LogExit: Editor shut down
+[2020.04.11-15.34.00:337][863]LogExit: Transaction tracking system shut down
+[2020.04.11-15.34.00:642][863]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2020.04.11-15.34.00:642][863]LogDirectoryWatcher: A directory notification for '../../../../../../MyDM 4.15 - 2 4.17 - 2/Content/' was aborted.
+[2020.04.11-15.34.00:642][863]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2020.04.11-15.34.00:642][863]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2020.04.11-15.34.00:642][863]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2020.04.11-15.34.01:886][863]LogExit: Object subsystem successfully closed.
+[2020.04.11-15.34.02:070][863]LogD3D11RHI: Shutdown
+[2020.04.11-15.34.02:111][863]LogD3D11RHI: CleanupD3DDevice
+[2020.04.11-15.34.02:194][863]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.04.11-15.34.03:296][863]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2020.04.11-15.34.03:296][863]LogModuleManager: Shutting down and abandoning module AddContentDialog (528)
+[2020.04.11-15.34.03:296][863]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2020.04.11-15.34.03:296][863]LogModuleManager: Shutting down and abandoning module WidgetCarousel (527)
+[2020.04.11-15.34.03:296][863]LogModuleManager: Shutting down and abandoning module EditorWidgets (524)
+[2020.04.11-15.34.03:296][863]LogModuleManager: Shutting down and abandoning module CollectionManager (522)
+[2020.04.11-15.34.03:297][863]LogDirectoryWatcher: A directory notification for 'C:/MyDM 4.15 - 2 4.17 - 2/Content/Collections/' was aborted.
+[2020.04.11-15.34.03:297][863]LogDirectoryWatcher: A directory notification for 'C:/MyDM 4.15 - 2 4.17 - 2/Content/Developers/user/Collections/' was aborted.
+[2020.04.11-15.34.03:297][863]LogDirectoryWatcher: A directory notification for 'C:/MyDM 4.15 - 2 4.17 - 2/Saved/Collections/' was aborted.
+[2020.04.11-15.34.03:297][863]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2020.04.11-15.34.03:297][863]LogModuleManager: Shutting down and abandoning module WorldBrowser (518)
+[2020.04.11-15.34.03:297][863]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2020.04.11-15.34.03:297][863]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2020.04.11-15.34.03:310][863]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2020.04.11-15.34.03:310][863]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2020.04.11-15.34.03:310][863]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2020.04.11-15.34.03:310][863]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2020.04.11-15.34.03:310][863]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2020.04.11-15.34.03:310][863]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2020.04.11-15.34.03:310][863]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2020.04.11-15.34.03:310][863]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2020.04.11-15.34.03:310][863]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2020.04.11-15.34.03:310][863]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2020.04.11-15.34.03:310][863]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2020.04.11-15.34.03:310][863]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2020.04.11-15.34.03:365][863]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2020.04.11-15.34.03:365][863]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2020.04.11-15.34.03:366][863]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2020.04.11-15.34.03:366][863]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2020.04.11-15.34.03:366][863]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2020.04.11-15.34.03:366][863]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2020.04.11-15.34.03:366][863]LogModuleManager: Shutting down and abandoning module Media (477)
+[2020.04.11-15.34.03:366][863]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2020.04.11-15.34.03:366][863]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2020.04.11-15.34.03:366][863]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2020.04.11-15.34.03:366][863]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2020.04.11-15.34.03:366][863]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2020.04.11-15.34.03:366][863]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2020.04.11-15.34.03:366][863]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2020.04.11-15.34.03:366][863]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2020.04.11-15.34.03:366][863]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2020.04.11-15.34.03:380][863]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2020.04.11-15.34.03:380][863]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2020.04.11-15.34.03:380][863]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2020.04.11-15.34.03:424][863]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2020.04.11-15.34.03:424][863]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2020.04.11-15.34.03:424][863]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2020.04.11-15.34.03:424][863]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2020.04.11-15.34.04:423][863]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2020.04.11-15.34.04:423][863]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2020.04.11-15.34.04:423][863]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2020.04.11-15.34.04:423][863]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2020.04.11-15.34.04:423][863]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2020.04.11-15.34.04:438][863]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2020.04.11-15.34.04:438][863]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2020.04.11-15.34.04:438][863]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2020.04.11-15.34.04:438][863]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2020.04.11-15.34.04:464][863]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2020.04.11-15.34.04:464][863]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2020.04.11-15.34.04:464][863]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2020.04.11-15.34.04:464][863]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2020.04.11-15.34.04:464][863]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2020.04.11-15.34.04:464][863]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2020.04.11-15.34.04:464][863]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2020.04.11-15.34.04:464][863]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2020.04.11-15.34.04:464][863]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2020.04.11-15.34.04:464][863]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2020.04.11-15.34.04:464][863]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2020.04.11-15.34.04:488][863]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2020.04.11-15.34.04:488][863]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2020.04.11-15.34.04:488][863]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2020.04.11-15.34.04:488][863]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2020.04.11-15.34.04:538][863]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2020.04.11-15.34.04:538][863]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2020.04.11-15.34.04:561][863]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2020.04.11-15.34.04:579][863]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2020.04.11-15.34.04:579][863]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2020.04.11-15.34.04:579][863]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2020.04.11-15.34.04:579][863]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2020.04.11-15.34.04:668][863]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2020.04.11-15.34.04:668][863]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2020.04.11-15.34.04:668][863]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2020.04.11-15.34.04:711][863]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2020.04.11-15.34.04:711][863]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2020.04.11-15.34.04:711][863]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2020.04.11-15.34.04:711][863]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2020.04.11-15.34.04:718][863]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2020.04.11-15.34.04:718][863]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2020.04.11-15.34.04:718][863]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2020.04.11-15.34.04:718][863]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2020.04.11-15.34.04:718][863]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2020.04.11-15.34.04:718][863]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2020.04.11-15.34.04:718][863]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2020.04.11-15.34.04:745][863]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2020.04.11-15.34.04:745][863]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2020.04.11-15.34.04:745][863]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2020.04.11-15.34.04:745][863]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2020.04.11-15.34.04:745][863]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2020.04.11-15.34.04:745][863]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2020.04.11-15.34.04:745][863]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2020.04.11-15.34.04:745][863]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2020.04.11-15.34.04:745][863]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2020.04.11-15.34.04:745][863]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2020.04.11-15.34.04:957][863]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2020.04.11-15.34.04:993][863]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2020.04.11-15.34.04:993][863]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2020.04.11-15.34.04:993][863]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2020.04.11-15.34.04:993][863]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2020.04.11-15.34.04:993][863]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2020.04.11-15.34.04:993][863]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2020.04.11-15.34.04:993][863]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2020.04.11-15.34.04:993][863]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2020.04.11-15.34.04:993][863]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2020.04.11-15.34.04:993][863]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2020.04.11-15.34.05:010][863]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2020.04.11-15.34.05:010][863]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2020.04.11-15.34.05:010][863]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2020.04.11-15.34.05:010][863]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2020.04.11-15.34.05:010][863]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2020.04.11-15.34.05:010][863]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2020.04.11-15.34.05:010][863]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2020.04.11-15.34.05:027][863]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2020.04.11-15.34.05:027][863]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2020.04.11-15.34.05:027][863]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2020.04.11-15.34.05:027][863]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2020.04.11-15.34.05:027][863]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2020.04.11-15.34.05:027][863]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2020.04.11-15.34.05:027][863]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2020.04.11-15.34.05:027][863]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2020.04.11-15.34.05:027][863]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2020.04.11-15.34.05:027][863]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2020.04.11-15.34.05:027][863]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2020.04.11-15.34.05:027][863]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2020.04.11-15.34.05:027][863]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2020.04.11-15.34.05:027][863]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2020.04.11-15.34.05:028][863]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2020.04.11-15.34.05:028][863]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2020.04.11-15.34.05:028][863]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2020.04.11-15.34.05:029][863]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2020.04.11-15.34.05:029][863]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2020.04.11-15.34.05:029][863]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2020.04.11-15.34.05:029][863]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2020.04.11-15.34.05:029][863]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2020.04.11-15.34.05:029][863]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2020.04.11-15.34.05:029][863]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2020.04.11-15.34.05:029][863]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2020.04.11-15.34.05:129][863]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2020.04.11-15.34.05:229][863]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2020.04.11-15.34.05:265][863]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2020.04.11-15.34.05:265][863]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2020.04.11-15.34.05:265][863]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2020.04.11-15.34.05:265][863]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2020.04.11-15.34.05:390][863]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2020.04.11-15.34.05:390][863]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2020.04.11-15.34.05:390][863]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2020.04.11-15.34.05:390][863]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2020.04.11-15.34.05:390][863]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2020.04.11-15.34.05:391][863]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2020.04.11-15.34.05:391][863]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2020.04.11-15.34.05:391][863]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2020.04.11-15.34.05:423][863]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2020.04.11-15.34.05:423][863]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2020.04.11-15.34.05:423][863]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2020.04.11-15.34.05:423][863]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2020.04.11-15.34.05:439][863]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2020.04.11-15.34.05:439][863]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2020.04.11-15.34.05:439][863]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2020.04.11-15.34.05:528][863]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2020.04.11-15.34.05:529][863]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2020.04.11-15.34.05:529][863]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2020.04.11-15.34.05:529][863]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2020.04.11-15.34.05:552][863]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2020.04.11-15.34.05:647][863]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2020.04.11-15.34.05:659][863]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2020.04.11-15.34.05:659][863]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2020.04.11-15.34.05:713][863]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2020.04.11-15.34.05:713][863]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2020.04.11-15.34.05:715][863]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2020.04.11-15.34.05:715][863]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2020.04.11-15.34.05:715][863]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2020.04.11-15.34.05:715][863]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2020.04.11-15.34.05:715][863]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2020.04.11-15.34.05:715][863]LogModuleManager: Shutting down and abandoning module Core (168)
+[2020.04.11-15.34.05:715][863]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2020.04.11-15.34.05:715][863]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2020.04.11-15.34.05:772][863]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2020.04.11-15.34.05:772][863]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2020.04.11-15.34.05:772][863]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2020.04.11-15.34.05:772][863]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2020.04.11-15.34.05:772][863]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2020.04.11-15.34.05:772][863]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2020.04.11-15.34.05:772][863]LogModuleManager: Shutting down and abandoning module LevelSequence (148)
+[2020.04.11-15.34.05:772][863]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2020.04.11-15.34.05:772][863]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2020.04.11-15.34.06:684][863]LogDerivedDataCache: Shutdown
+[2020.04.11-15.34.06:684][863]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2020.04.11-15.34.06:684][863]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2020.04.11-15.34.06:684][863]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2020.04.11-15.34.06:684][863]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2020.04.11-15.34.06:684][863]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2020.04.11-15.34.06:684][863]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2020.04.11-15.34.06:684][863]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2020.04.11-15.34.06:684][863]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2020.04.11-15.34.06:684][863]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2020.04.11-15.34.06:684][863]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2020.04.11-15.34.06:685][863]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2020.04.11-15.34.06:685][863]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2020.04.11-15.34.06:685][863]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2020.04.11-15.34.06:685][863]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2020.04.11-15.34.06:685][863]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2020.04.11-15.34.06:685][863]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2020.04.11-15.34.06:685][863]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2020.04.11-15.34.06:685][863]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2020.04.11-15.34.06:685][863]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2020.04.11-15.34.06:685][863]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2020.04.11-15.34.06:685][863]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2020.04.11-15.34.06:685][863]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2020.04.11-15.34.06:685][863]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2020.04.11-15.34.06:685][863]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2020.04.11-15.34.06:685][863]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2020.04.11-15.34.06:685][863]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2020.04.11-15.34.06:685][863]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2020.04.11-15.34.06:685][863]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2020.04.11-15.34.06:685][863]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2020.04.11-15.34.06:685][863]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2020.04.11-15.34.06:685][863]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2020.04.11-15.34.06:685][863]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2020.04.11-15.34.06:685][863]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2020.04.11-15.34.06:685][863]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2020.04.11-15.34.06:685][863]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2020.04.11-15.34.06:685][863]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2020.04.11-15.34.06:685][863]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2020.04.11-15.34.06:685][863]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2020.04.11-15.34.06:685][863]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2020.04.11-15.34.06:685][863]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2020.04.11-15.34.06:685][863]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2020.04.11-15.34.06:685][863]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2020.04.11-15.34.06:685][863]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2020.04.11-15.34.06:685][863]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2020.04.11-15.34.06:685][863]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2020.04.11-15.34.06:685][863]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2020.04.11-15.34.06:685][863]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2020.04.11-15.34.06:685][863]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2020.04.11-15.34.06:685][863]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2020.04.11-15.34.06:685][863]LogOnline: Display: Unloading online subsystem: NULL
+[2020.04.11-15.34.06:730][863]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2020.04.11-15.34.06:791][863]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2020.04.11-15.34.06:791][863]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.04.11-15.34.06:791][863]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B014665D8-4C8C-511B-4C17-D682C3D5F651%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=971d9d614bfaebf39776aaada30de4ef%7Cb1592e703d8b43ad8c3e4a14b603f55e%7Ca5f5f084-4793-41a1-b0d6-213ebca596c6&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.04.11-15.34.06:852][863]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2020.04.11-15.34.06:855][863]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2020.04.11-15.34.06:855][863]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2020.04.11-15.34.06:855][863]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2020.04.11-15.34.06:905][863]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2020.04.11-15.34.06:905][863]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2020.04.11-15.34.06:905][863]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2020.04.11-15.34.06:905][863]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2020.04.11-15.34.06:930][863]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2020.04.11-15.34.06:970][863]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2020.04.11-15.34.06:970][863]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2020.04.11-15.34.06:970][863]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2020.04.11-15.34.06:970][863]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2020.04.11-15.34.06:970][863]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2020.04.11-15.34.06:970][863]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2020.04.11-15.34.06:970][863]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2020.04.11-15.34.06:970][863]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2020.04.11-15.34.06:970][863]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2020.04.11-15.34.06:970][863]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2020.04.11-15.34.06:973][863]LogExit: Exiting.
+[2020.04.11-15.34.07:003][863]Log file closed, 04/11/20 18:34:07
